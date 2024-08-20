@@ -1,0 +1,36 @@
+{
+  "name": "@vue3-oop/plugin-vue-jsx",
+  "version": "1.4.6",
+  "license": "MIT",
+  "author": "agilegao",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vue3-oop/plugin-vue-jsx.git",
+    "directory": "packages/plugin-vue-jsx"
+  },
+  "bugs": {
+    "url": "https://github.com/vue3-oop/plugin-vue-jsx/issues"
+  },
+  "homepage": "https://github.com/vue3-oop/plugin-vue-jsx#readme",
+  "dependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-syntax-import-meta": "^7.10.4",
+    "@rollup/pluginutils": "^4.1.1",
+    "@vue/babel-plugin-jsx": "^1.1.1",
+    "hash-sum": "^2.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  },
+  "peerDependencies": {
+    "typescript": "*"
+  }
+}
