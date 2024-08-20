@@ -13,8 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vue3-oop/plugin-vue-jsx.git",
-    "directory": "packages/plugin-vue-jsx"
+    "url": "git+https://github.com/vue3-oop/plugin-vue-jsx.git"
   },
   "bugs": {
     "url": "https://github.com/vue3-oop/plugin-vue-jsx/issues"
@@ -28,9 +27,11 @@
     "hash-sum": "^2.0.0"
   },
   "devDependencies": {
-    "typescript": "^4.4.4"
+    "typescript": "^4.4.4",
+    "vite": "^5.4.1"
   },
   "peerDependencies": {
-    "typescript": "*"
+    "typescript": "*",
+    "vite": "*"
   }
 }
